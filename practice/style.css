@@ -1,5 +1,5 @@
 * {
-    fornt-family: "Courier New";
+    font-family: "Courier New";
 }
 
 h1, h3{
@@ -65,4 +65,50 @@ input[type="password"] {
 
 input[type] {
   background-color: ghostwhite;
+}
+
+/* #myId p{
+  color: #008000;
+} */
+
+div[id="myId"] p{
+  color: #800080;
+}
+
+button:hover {
+  background-color: rgb(2, 12, 15);
+  color: white;
+}
+
+button:active {
+  background-color: yellow;
+  color: black;
+}
+
+h3:hover {
+  text-decoration: overline;
+}
+
+p:active {
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+input[type="radio"]:checked + label {
+  font-weight: bold;
+  color: darkblue;
+}
+
+div:nth-of-type(2n) {
+  background-color: lightgray;
+}
+
+h1::first-letter{
+  /* background-color: yellow; */
+  color: rosybrown;
+}
+
+p::selection {
+  background-color: black;
+  color: white;
 }
