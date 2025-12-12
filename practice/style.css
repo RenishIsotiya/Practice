@@ -1,0 +1,21 @@
+* {
+    fornt-family: "Courier New";
+}
+
+h1, h3{
+  color: #b92b27;
+}
+
+#login {
+  background-color: white;
+}
+
+#signup {
+  background-color: rgb(176, 108, 108);
+  color: white;
+}
+
+.upvote {
+  background-color: #4CAF50;
+  color: white;
+}
