@@ -19,3 +19,50 @@ h1, h3{
   background-color: #4CAF50;
   color: white;
 }
+
+/* descendant selectors */
+
+/* p a {
+  text-decoration: none;
+  color: purple;
+  background-color: yellow;
+} */
+
+.Post a {
+  text-decoration: none;
+  color: purple;
+  background-color: yellow;
+}
+
+/* nav ul li a  {
+  color: hotpink;
+} */
+
+nav a  {
+  color: hotpink;
+}
+
+p + h3 {
+  text-decoration: underline;
+}
+
+.upvote + button {
+  background-color: orange;
+  color: white;
+}
+
+div > input {
+background-color: darksalmon;
+}
+
+input[type="text"] {
+  color: green;
+}
+
+input[type="password"] {
+  color: red;
+}
+
+input[type] {
+  background-color: ghostwhite;
+}
